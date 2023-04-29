@@ -122,16 +122,78 @@
 
 # EJERCICIOS DE ESTRUTURA DE DATOS
 
-# 1 crear un diccionario con os nombres de tres fruas
-# y sus respectivos precios y mostrar el diccionario competo
+# 1-Crear un diccionario con los nombres de tres frutas y sus respectivos precios y
+# mostrar el diccionario completo.
 
 # frutas = { "piña": 1000, "pera": 500, "cacaguate": 2000}
 # print(frutas)
 
-# 2 Crear una lista con los nombres de tres ciudades y agregar
-# una cuarta ciudad al
+
+# 2-Crear una lista con los nombres de tres ciudades y agregar una cuarta ciudad al
 # final de la lista.
-lista = [ "saenz", "quiti", "quimili"]
-print(lista);
-lista[3]= "napenay"
-print(lista)
+# final de la lista.
+# lista = [ "saenz", "quiti", "quimili"]
+# print(lista);
+# lista[-1]= "napenay"
+# print(lista)
+
+# lista=[ "quitilipi", "maxhagai", "resis"]
+# print("estas son las ciudades que elegi, ", lista)
+# # agregare una ciudad a la lista.
+# lista.append("tres ilkestas")
+# print("ves que agergue una nueva ciudad, ", lista)
+
+# otra_lista = []
+# otra_lista.append("eliana")
+# otra_lista.append("enzo")
+# print("quieeo ver la nueva lista que crea,os recine", otra_lista)
+
+
+
+
+# 3-Crear una lista con los nombres de tres países y mostrar el segundo país de la
+# lista.
+
+# paises = [ "tanzania","germania", "bolivia"]
+# print(paises[1])
+
+# 4-Crear un diccionario con los nombres de tres personas y sus respectivas
+# edades. Mostrar la edad de la tercera persona en el diccionario.
+
+# personas_edades = { "eliana":40, "enzo": 38, "tuco": 1 }
+# print(personas_edades)
+# print("es la edad del tercero que escribimos", personas_edades["tuco"])
+
+# 5-Crear un set/conjunto con los números del 1 al 10 y mostrar el número más
+# grande en el conjunto.
+
+# numeros = {1,2,3,4,5,6,7,8,9,10}
+# lomas = max(numeros) 
+# # utilizamos una nueva variable
+# print(lomas)
+
+
+
+# 6-Crear un set/conjunto con los números impares del 1 al 10 y mostrar el número
+# de elementos en el conjunto.
+
+impares = {1,3,5,7,9}
+cantidad = len(impares)
+print(cantidad)
+
+# 7-Crear un diccionario con los nombres de tres ciudades y sus respectivas
+# poblaciones. Agregar una cuarta ciudad al diccionario con su respectiva
+# población. Mostrar el diccionario resultante.
+# 8-Crear una lista con los números del 1 al 10 y mostrarlos en orden inverso.
+# 9-Crear una lista con los nombres de tres países y ordenar la lista en orden
+# alfabético. Mostrar la lista resultante.
+# 10-Crear una lista con los nombres de tres frutas y eliminar la segunda fruta de la
+# lista. Mostrar la lista resultante.
+# 11-Crear una lista con los nombres de tres animales y agregar una cuarta animal
+# al principio de la lista. Mostrar la lista resultante.
+# 12-Crear una lista con los nombres de tres países y reemplazar el segundo país de
+# la lista por otro país. Mostrar la lista resultante.
+# 13-Crear una lista con los nombres de tres colores y agregar dos colores más al
+# final de la lista. Mostrar la lista resultante.
+# 14-Crear una tupla con los números del 1 al 5 y mostrar la suma de todos los
+# elementos de la tupla.
