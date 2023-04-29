@@ -52,12 +52,12 @@
 # 11 escribir un programa que pida a usuario
 # dos numeors y muestre por pantalla la suma de
 # llos sollo si ambos son pares
-num1 = int(input("escribe un numero  "))
-num2 = int(input("escribe otro numeor "))
-if num1 %2 == 0 and num2 % 2 == 0 :
-    print("son pares")
-    print( num1 + num2, "division")
-else: print("no son pares, o uno de ellos no lo es")
+# num1 = int(input("escribe un numero  "))
+# num2 = int(input("escribe otro numeor "))
+# if num1 %2 == 0 and num2 % 2 == 0 :
+#     print("son pares")
+#     print( num1 + num2, "division")
+# else: print("no son pares, o uno de ellos no lo es")
 
 
 # escribir un programa que pída al usuario su edad y 
@@ -113,9 +113,25 @@ else: print("no son pares, o uno de ellos no lo es")
 # 11 escribir un programa que pida a usuario
 # dos numeors y muestre por pantalla la suma de
 # llos sollo si ambos son pares
-num1 = int(input("escribe un numero  "))
-num2 = int(input("escribe otro numeor "))
-if num1 %2 == 0 and num2 % 2 == 0 :
-    print("son pares")
-    print( num1 + num2, "division")
-else: print("no son pares, o uno de ellos no lo es")
+# num1 = int(input("escribe un numero  "))
+# num2 = int(input("escribe otro numeor "))
+# if num1 %2 == 0 and num2 % 2 == 0 :
+#     print("son pares")
+#     print( num1 + num2, "division")
+# else: print("no son pares, o uno de ellos no lo es")
+
+# EJERCICIOS DE ESTRUTURA DE DATOS
+
+# 1 crear un diccionario con os nombres de tres fruas
+# y sus respectivos precios y mostrar el diccionario competo
+
+# frutas = { "piña": 1000, "pera": 500, "cacaguate": 2000}
+# print(frutas)
+
+# 2 Crear una lista con los nombres de tres ciudades y agregar
+# una cuarta ciudad al
+# final de la lista.
+lista = [ "saenz", "quiti", "quimili"]
+print(lista);
+lista[3]= "napenay"
+print(lista)
