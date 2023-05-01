@@ -177,9 +177,9 @@
 # 6-Crear un set/conjunto con los números impares del 1 al 10 y mostrar el número
 # de elementos en el conjunto.
 
-impares = {1,3,5,7,9}
-cantidad = len(impares)
-print(cantidad)
+# impares = {1,3,5,7,9}
+# cantidad = len(impares)
+# print(cantidad)
 
 # 7-Crear un diccionario con los nombres de tres ciudades y sus respectivas
 # poblaciones. Agregar una cuarta ciudad al diccionario con su respectiva
@@ -197,3 +197,12 @@ print(cantidad)
 # final de la lista. Mostrar la lista resultante.
 # 14-Crear una tupla con los números del 1 al 5 y mostrar la suma de todos los
 # elementos de la tupla.
+
+# semana 3
+
+i=1
+i+=1
+while i<= 5:
+    print(i)
+    
+    i+=1
