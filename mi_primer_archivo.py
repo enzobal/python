@@ -222,16 +222,36 @@
     
 # 2-Escribe un programa que pida al usuario un número y calcule la suma de todos
 # los números naturales del 1 hasta ese número.
+# nume = int(input("ingresa un numero por favor"))
+# # if nume <1:
+# #     print("imgresa un numero positiv por favor")
+# # else:
+# sumas = 0
+# for i in range(1, nume+1):
+#     sumas += i
+# print(sumas)
 
 
-numero = int(input(" escribe un numero "))
-i= 1
-while i<= numero:
-    print(i)
-    i+=1
-    e={"x":[i+=1]}
-    d=i + e["x"]
-    print(d)
+
+
+# for i in range(4):
+#     print(i)
+
+ 
+
+# nume = int(input(" escribe un numero "))
+# f
+# # for numero in nume:
+# suma =sum(range(1, nume +1))
+# # print(suma)
+
+# i= 1
+# while i<= numero:
+#     print(i)
+#     i+=1
+#     e={"x":[i+=1]}
+#     d=i + e["x"]
+#     print(d)
 
 
 # 3-Escribe un programa que pida al usuario un número y luego imprima la tabla de
@@ -288,3 +308,43 @@ while i<= numero:
 # Los números perfectos son aquellos iguales a la suma de sus
 # divisores: 6 se
 # puede dividir por 1, 2 y 3, y cuando sumas esos números, el resultado es 6
+
+
+# escribe = int(input(" escribe un numero:  "))
+
+# suma=0
+# contador =0
+# while contador <= escribe:
+    
+#     suma= suma + contador
+#     contador = contador + 1
+# print(suma )
+
+
+
+
+
+# contador =0
+# suma=0
+# n =int(input("ingrsa un numero"))
+# while contador <= n:
+#     suma= suma +contador
+#     contador=contador +1
+# print (suma)
+
+
+# while True:
+#     diga= input("ingresa un apalabra con INO")
+#     if diga== "ino":
+#         break
+#     else:
+#         print("op")
+#     print("termino la ejecucion con ino")
+
+
+
+
+# texto = input("Ingrese un texto: ")
+# texto_invertido = texto[::-1]
+# print(texto_invertido)
+
