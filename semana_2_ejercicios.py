@@ -113,3 +113,26 @@ lista_texto=texto_rev.split("")
 lista_texto.reverse()
 texto_rev = "".join(lista_texto)
 print(texto_rev)
+
+
+# Pedir al usuario el texto y las letras a buscar
+texto = input("Ingresa un texto: ").lower()
+letras = input("Ingresa tres letras separadas por coma: ").lower().split(",")
+
+# Contar la cantidad de veces que aparece cada letra
+cantidades = {}
+if "a" in letras:
+    cantidades["a"] = texto.count("a")
+if "b" in letras:
+    cantidades["b"] = texto.count("b")
+if "c" in letras:
+    cantidades["c"] = texto.count("c")
+
+# Imprimir los resultados
+print("Cantidad de veces que aparece cada letra:")
+if "a" in cantidades:
+    print(f"a: {cantidades['a']}")
+if "b" in cantidades:
+    print(f"b: {cantidades['b']}")
+if "c" in cantidades:
+    print(f"c: {cantidades['c']}")

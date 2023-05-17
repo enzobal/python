@@ -1,10 +1,42 @@
-texto = input("ingresa un texto cabezon").lower().split()
-letras_usuario =input("ingresa 3 letras con espacios de por medio").lower().split()
-print(letras_usuario)
-cantidades ={}
- if letras_usuario[0] in texto:
-     cantidades[letras_usuario[0]] = texto.count(letras_usuario[0])
 
+# texto = input("Ingresa un texto: ").lower()
+# letras = list(input("Ingresa tres letras separadas por coma: ").lower().split(","))
+
+# # Contar la cantidad de veces que aparece cada letra
+# cantidades = {}
+# if "a" in letras:
+#     cantidades["a"] = texto.count("a")
+#     print(cantidades)
+# if "b" in letras:
+#     cantidades["b"] = texto.count("b")
+#     print(cantidades)
+# if "c" in letras:
+#     cantidades["c"] = texto.count("c")
+#     print(cantidades)
+
+texto = list(input("ingresa un texto cabezon  ").lower())
+letras=list(input("ingresa 3 letras sin espacios  ").lower())
+# print(letras)
+print(letras[0])
+
+l1=letras[0]
+if l1 in letras:
+    l1= texto.count(l1)
+    print(l1, f"cantidad de veces que aparece {letras[0]}")
+
+l2= letras[1]
+if l2 in texto:
+    l2= texto.count(l2)
+    print(l2, " es as veces que aparece")
+# print(letras[0])
+# cantidades ={}
+# l1=letras[0]
+# if l1 in letras:
+#     cantidades[l1]= texto.count(l1)
+#     print(cantidades[l1])
+    
+    
+# hola mundo
 
 # 1- Cantidad de veces que aparece cada una de letras 
 # que eligió.
